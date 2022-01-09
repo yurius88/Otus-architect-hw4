@@ -4,7 +4,7 @@
 class CommandException : public std::exception
 {
 public:	
-	char const* what() const override
+	virtual char const* what() const noexcept  override
 	{
 		return "CommandException";
 	}
