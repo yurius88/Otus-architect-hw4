@@ -3,9 +3,9 @@
 
 class CommandException : public std::exception
 {
-public:
-	CommandException() : std::exception("CommandException")
+public:	
+	char const* what() const override
 	{
-
+		return "CommandException";
 	}
 };
