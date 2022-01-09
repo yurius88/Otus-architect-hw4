@@ -30,7 +30,7 @@ set(SOURCES
 add_executable(HW4 ${SOURCES})
 
 
-include_directories(HW2_headers    
+include_directories(HW4_headers    
         ${PROJECT_SOURCE_DIR}
 )
 
